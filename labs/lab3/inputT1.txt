@@ -1,0 +1,11 @@
+Eat Dinner 10
+Learn Some More 7
+Do Your Homework 8
+Go Home 7
+Wake Up 1
+Eat Lunch 5
+Go To Sleep 10.0001
+Learn Something 4
+Watch TV 9
+Go To School 3
+Eat Breakfast 2

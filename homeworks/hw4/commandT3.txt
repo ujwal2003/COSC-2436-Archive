@@ -1,0 +1,5 @@
+Degree=7
+Inorder Traversal
+Level 3
+Level 11
+Inorder Traversal

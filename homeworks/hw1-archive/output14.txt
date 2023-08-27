@@ -1,0 +1,6 @@
+Level 3: {name:Jone.Rock,age:25,dept:CS}
+Level 3: {name:Asen.Huan,age:30,dept:EE}
+Level 2: {name:Bob.Carlos,age:20,dept:EE}
+Level 1: {name:Amaya.Jeremy,age:24,dept:ISSSO}
+Level 1: {name:Kim.Jose,age:34,dept:Edu}
+Level 0: {name:Alice.Sun,age:46,dept:CS}

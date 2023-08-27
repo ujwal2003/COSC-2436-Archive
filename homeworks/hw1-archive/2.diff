@@ -1,0 +1,6 @@
+--- result12.txt	2022-02-02 09:11:25.098307196 +0000
++++ output12.txt	2022-02-02 09:12:17.422355248 +0000
+@@ -1,2 +1,2 @@
+ Level 3: {name:Jone.Rock,age:25,dept:CS}
+-Level 2: {name:Alice.Sun,age:46,dept:CS}
++Level 0: {name:Alice.Sun,age:46,dept:CS}

@@ -1,0 +1,8 @@
+char
+Add (0) [p]
+Add (0) [g]
+Add (1) [o]
+Remove [p]
+Remove [a]
+Add (3) [g]
+Add (2) [t]

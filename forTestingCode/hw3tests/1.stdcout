@@ -1,0 +1,32 @@
+matrix of size 4:
+2 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+matrix.size(): 4
+
+original matrix shifted up:
+2 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+original matrix shifted right:
+0 0 0 2 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+original matrix shifted down:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+2 0 0 0 
+
+original matrix shifted left:
+2 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+

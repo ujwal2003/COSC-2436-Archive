@@ -1,0 +1,6 @@
+Degree=4
+Level 4
+Level 2
+Level 6
+Level 8
+Level 7

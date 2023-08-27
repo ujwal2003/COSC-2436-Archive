@@ -1,0 +1,17 @@
+string
+Add (0) [abc]
+Add (1) [this]
+Remove [hello]
+Add (2) [pass]
+Add (3) [the]
+Add (4) [a]
+Add (2) [student]
+Add (1) [makes]
+Remove [abc]
+Remove [a]
+Add (10) [computers]
+Add (5) [test]
+
+
+
+

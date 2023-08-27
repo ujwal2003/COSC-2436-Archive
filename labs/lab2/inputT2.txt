@@ -1,0 +1,12 @@
+string
+Add (1) [Gingerbread]
+Add (1) [House]
+Remove [House]
+Add (1) [Man]
+Add (0) [Cane]
+Add (0) [Candy]
+Add (1) []
+Remove []
+Add (2) []
+Add (4) [Forest]
+Add (3) [Forest]

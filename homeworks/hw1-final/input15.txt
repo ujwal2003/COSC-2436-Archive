@@ -1,0 +1,1 @@
+{name:Jone.       Roc   k,age:26,dept:CS}

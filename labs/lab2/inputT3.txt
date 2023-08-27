@@ -1,0 +1,13 @@
+int
+Add (0) [0]
+Add (0) [1]
+Add (1) [0]
+Add (1) [1]
+
+Remove [-1]
+Add (1) [0]
+
+
+Remove [0]
+Add (2) [-1]
+Add (1) [-1]

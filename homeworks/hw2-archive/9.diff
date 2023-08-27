@@ -1,0 +1,91 @@
+--- ans29.txt	2022-02-15 17:58:49.247596817 +0000
++++ output29.txt	2022-02-15 18:00:06.427669219 +0000
+@@ -1,36 +1,52 @@
++{id:1234501,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+ {id:1234502,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234508,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234514,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234520,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234526,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234532,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234538,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234544,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234550,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234553,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234558,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234564,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234570,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234576,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234582,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234588,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+-{id:1234594,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+ {id:1234504,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234507,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
++{id:1234508,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+ {id:1234510,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234513,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
++{id:1234514,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+ {id:1234516,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234519,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
++{id:1234520,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+ {id:1234522,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234525,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
++{id:1234526,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+ {id:1234528,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234531,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
++{id:1234532,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+ {id:1234534,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234537,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
++{id:1234538,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+ {id:1234540,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234543,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
++{id:1234544,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+ {id:1234546,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234549,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
++{id:1234550,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+ {id:1234551,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234553,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
+ {id:1234556,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234558,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
++{id:1234559,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+ {id:1234562,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234564,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
++{id:1234565,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+ {id:1234568,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234570,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
++{id:1234571,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+ {id:1234574,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234576,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
++{id:1234577,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+ {id:1234580,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234582,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
++{id:1234583,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+ {id:1234586,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234588,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
++{id:1234589,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+ {id:1234592,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
++{id:1234594,first:Peter,last:White,DOB:1997-05-22,GPA:3.8}
++{id:1234595,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+ {id:1234598,first:Katy,last:Green,DOB:1995-08-18,GPA:4.0}
+ {id:1654101,first:Nick,last:Park,DOB:1995-08-18,GPA:4.0}
+ {id:1654102,first:Nick,last:Park,DOB:1995-08-18,GPA:4.0}
+@@ -83,19 +99,3 @@
+ {id:1654296,first:Nick,last:Park,DOB:1995-08-18,GPA:4.0}
+ {id:1654297,first:Nick,last:Park,DOB:1995-08-18,GPA:4.0}
+ {id:1654299,first:Nick,last:Park,DOB:1995-08-18,GPA:4.0}
+-{id:1234501,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+-{id:1234507,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+-{id:1234513,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+-{id:1234519,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+-{id:1234525,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+-{id:1234531,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+-{id:1234537,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+-{id:1234543,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+-{id:1234549,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+-{id:1234559,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+-{id:1234565,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+-{id:1234571,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+-{id:1234577,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+-{id:1234583,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+-{id:1234589,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}
+-{id:1234595,first:Mary,last:Green,DOB:1996-10-03,GPA:4.0}

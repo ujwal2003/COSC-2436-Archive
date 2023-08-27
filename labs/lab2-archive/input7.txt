@@ -1,0 +1,14 @@
+char
+Add (0) [w]
+Add (0) [w]
+Add (0) [w]
+Add (3) [.]
+Remove [.]
+
+Add (3) [u]
+Add (4) [h]
+Add (5) [.]
+Add (6) [e]
+Add (7) [d]
+Add (8) [u]
+Remove [w]

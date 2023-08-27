@@ -1,0 +1,13 @@
+char
+
+Remove [i]
+Remove [p]
+Add (1) [a]
+Add (0) [p]
+Add (1) [o]
+Add (2) [o]
+Add (3) [i]
+Add (4) [n]
+Add (5) [t]
+Remove [o]
+Add (6) [m]

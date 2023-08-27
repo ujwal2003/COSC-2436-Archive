@@ -1,0 +1,27 @@
+matrix of size 3:
+2 2 2 
+0 0 0 
+0 0 0 
+
+matrix.size(): 3
+
+original matrix shifted up:
+2 2 2 
+0 0 0 
+0 0 0 
+
+original matrix shifted right:
+0 2 4 
+0 0 0 
+0 0 0 
+
+original matrix shifted down:
+0 0 0 
+0 0 0 
+2 2 2 
+
+original matrix shifted left:
+4 2 0 
+0 0 0 
+0 0 0 
+

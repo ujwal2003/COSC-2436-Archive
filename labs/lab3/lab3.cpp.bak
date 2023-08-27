@@ -1,0 +1,69 @@
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include "ArgumentManager.h"
+#include "priorityQueue.h"
+
+using namespace std;
+
+//code to extract number from string
+//slightly modifed code from geeksforgeeks
+double getDoubleFromStr(string str) {
+	stringstream ss;
+	ss << str;
+	
+	string temp;
+	double num;
+	while(!ss.eof()) {
+		ss >> temp;
+		if(stringstream(temp) >> num)
+			return num;
+		temp = "";
+	}
+	return -1;
+}
+
+//remove double from string of data
+string removeNumFromString(string str, double num) {
+	ostringstream dstr_ss;
+	dstr_ss << num;
+	string dstr = dstr_ss.str();
+	
+	int index = str.find(dstr);
+	int len = str.size() - index+1;
+	int newLen = str.size() - len;
+	string newStr = str.substr(0, newLen);
+	return newStr;
+}
+
+int main(int argc, char *argv[]) {
+	ArgumentManager am(argc, argv);
+	
+	string infile = am.get("input");
+	string outfile = am.get("output");
+
+	ifstream ifs(infile.c_str());
+	ofstream ofs(outfile.c_str());
+	
+	pQueue pq;
+	
+	string line;
+	while(getline(ifs, line)) {
+		if(line == ""){continue;}
+		double p = getDoubleFromStr(line);
+		string data = removeNumFromString(line, p);
+		
+		pq.enqueue(data, p);
+		
+		std::size_t found = line.find_last_not_of("\r");
+        if(found != std::string::npos){line.erase(found+1);}
+	}
+	
+	while(!pq.isEmpty())
+		ofs << pq.pop() << endl;
+
+	ofs.flush();
+
+	ifs.close();
+	ofs.close();
+}

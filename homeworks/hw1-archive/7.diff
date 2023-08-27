@@ -1,0 +1,20 @@
+--- result17.txt	2022-02-02 09:11:25.098307196 +0000
++++ output17.txt	2022-02-02 09:12:17.442355266 +0000
+@@ -1,9 +1,9 @@
+-Level 6: {name:Jone.Rock,age:25,dept:CS}
+-Level 5: {name:Jone.Rock,age:25,dept:CS}
+-Level 6: {name:Jone.Rock,age:25,dept:CS}
+-Level 6: {name:Jone.Rock,age:25,dept:CS}
+-Level 6: {name:Jone.Rock,age:25,dept:CS}
+-Level 6: {name:Jone.Rock,age:25,dept:CS}
+-Level 6: {name:Jone.Rock,age:25,dept:CS}
+-Level 6: {name:Jone.Rock,age:25,dept:CS}
++Level 51: {name:Jone.Rock,age:25,dept:CS}
++Level 47: {name:Jone.Rock,age:25,dept:CS}
++Level 42: {name:Jone.Rock,age:25,dept:CS}
++Level 35: {name:Jone.Rock,age:25,dept:CS}
++Level 30: {name:Jone.Rock,age:25,dept:CS}
++Level 24: {name:Jone.Rock,age:25,dept:CS}
++Level 18: {name:Jone.Rock,age:25,dept:CS}
++Level 12: {name:Jone.Rock,age:25,dept:CS}
+ Level 6: {name:Jone.Rock,age:25,dept:CS}

@@ -1,0 +1,109 @@
+#include <iostream>
+#include "stack.h"
+
+using namespace std;
+
+bool isOperator(char c) {
+	if(c == '+' || c == '-' || c == '*' || c == '/' || c == '^')
+		return true;
+	return false;
+}
+
+bool isOperand(char c) {
+	if(c >= 'a' && c <= 'z')
+		return true;
+	if(c >= 'A' && c <= 'Z')
+		return true;
+	if(c >= '0' && c <= '9')
+		return true;
+	return false;
+}
+
+int operatorWeight(char op) {
+	switch(op) {
+		case '+':
+			return 1;
+		case '-':
+			return 1;
+		case '*':
+			return 2;
+		case '/':
+			return 2;
+		case '^':
+			return 3;
+	}
+	return 0;
+}
+
+bool hasSameOrHigherPrecedence(char c1, char c2) {
+	int c1Weight = operatorWeight(c1);
+	int c2Weight = operatorWeight(c2);
+	
+	if(c1Weight == c2Weight)
+		return true;
+	if(c1Weight > c2Weight)
+		return true;
+	else
+		return false;
+}
+
+string removeExtraSpaces(string str) {
+	string out;
+	for(int i=0; i<str.length(); ) {
+		if(str[i] == ' ') {
+			if(i == 0 || i == str.length()-1) {
+				i++;
+				continue;
+			}
+			
+			while(str[i+1] == ' ')
+				i++;
+		}
+		
+		out += str[i++];
+	}
+	
+	return out;
+}
+
+string convertInfixToPostfix(string infix) {
+	stack s;
+	string postfix = "";
+	
+	for(int i=0; i<infix.size(); i++) {
+		if(infix[i] == ' '){postfix += infix[i];}
+		if(isOperator(infix[i])) {
+			while(!s.isEmpty() && s.peek() != '(' && hasSameOrHigherPrecedence(s.peek(), infix[i])) {
+				postfix += s.peek();
+				s.pop();
+			}
+			s.push(infix[i]);
+		} else if(isOperand(infix[i])) {
+			postfix += infix[i];
+		} else if(infix[i] == '(') {
+			s.push(infix[i]);
+		} else if(infix[i] == ')') {
+			while(!s.isEmpty() && s.peek() != '(') {
+				postfix += s.peek();
+				s.pop();
+			}
+			s.pop();
+		}
+	}
+	
+	while(!s.isEmpty()) {
+		postfix += s.pop();
+	}
+	return removeExtraSpaces(postfix);
+}
+
+int main() {
+	cout << "Enter an infix expression (example: a * (b + c)): ";
+	string expression;
+	getline(cin, expression);
+	
+	cout << endl;
+	cout << "Inputted Infix Expression: " << expression << endl;
+	cout << endl;
+	cout << "Converted Postfix Expression: " << convertInfixToPostfix(expression) << endl;
+} 

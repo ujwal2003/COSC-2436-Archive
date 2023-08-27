@@ -1,0 +1,37 @@
+matrix of size 5:
+0 0 0 0 0 
+2 2 2048 4 4 
+0 0 0 0 0 
+0 0 0 0 0 
+0 4 0 0 0 
+
+matrix.size(): 5
+
+original matrix shifted up:
+2 2 0 4 4 
+0 4 2048 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+
+original matrix shifted right:
+0 0 0 0 0 
+0 4 2048 0 8 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 4 
+
+original matrix shifted down:
+0 0 0 0 0 
+0 0 2048 0 0 
+0 0 0 0 0 
+0 2 0 0 0 
+2 4 0 4 4 
+
+original matrix shifted left:
+0 0 0 0 0 
+4 0 2048 8 0 
+0 0 0 0 0 
+0 0 0 0 0 
+4 0 0 0 0 
+

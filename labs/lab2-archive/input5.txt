@@ -1,0 +1,38 @@
+string
+Add (0) [well]
+Add (1) [still]
+Add (2) [denial]
+Add (8) [finance]
+Add (1) [attic]
+Remove [attic]
+Add (3) [be]
+
+Add (4) [disagree]
+Add (6) [Spontaneous]
+Add (9) [retain]
+
+Add (6) [adjust]
+Add (2) [high]
+Remove [be]
+Add (4) [scandal]
+
+Add (2) [critic]
+Add (2) [distort]
+Add (5) [infrastructure]
+Add (5) [ring]
+Add (9) [ratio]
+Remove [well]
+
+Remove [well]
+Remove [well]
+Remove [well]
+
+Add (3) [senior]
+Add (5) [dome]
+Add (10) [drawer]
+
+
+
+
+
+
